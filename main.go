@@ -1,6 +1,7 @@
 package main
 
 func main() {
-	n := "image.png"
-	downloadImage(n)
+	n := "chart.png"
+	screenshotImage(n)
+	generateImage(n, "final.png")
 }
